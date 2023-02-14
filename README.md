@@ -10,4 +10,4 @@ HTML Table CRUD Operations
 
 This example is designed for an admin whose job is to manage the tournaments for FIFA.
 
-<img title="demo of the page" alt="Alt text" src="/demo.jpg">
+<img title="demo of the page" alt="Alt text" src="/demo.png">
