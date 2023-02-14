@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Html CRUD with Pure JavaScript
+    </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td>
+                <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
+                    <div>
+                        <label>Date</label><label class="validation-error hide" id="fullNameValidationError">This field is required.</label>
+                        <input type="text" name="Date" id="Date">
+                    </div>
+                    <div>
+                        <label>Time</label>
+                        <input type="text" name="Time" id="Time">
+                    </div>
+                    <div>
+                        <label>Team1</label>
+                        <input type="text" name="Team1" id="Team1">
+                    </div>
+                    <div>
+                        <label>Team2</label>
+                        <input type="text" name="Team2" id="Team2">
+                    </div>
+                    <div>
+                        <label>Team1 Score</label>
+                        <input type="text" name="Team1_Score" id="Team1_Score">
+                    </div>
+                    <div>
+                        <label>Team2 Score</label>
+                        <input type="text" name="Team2_Score" id="Team2_Score">
+                    </div>
+                    <div>
+                        <label>Winner</label>
+                        <input type="text" name="Winner" id="Winner">
+                    </div>
+                    <div>
+                        <label>Group Stage</label>
+                        <input type="text" name="Group_Stage" id="Group_Stage">
+                    </div>
+                    <div>
+                        <label>Game Season</label>
+                        <input type="text" name="Game_Season" id="Game_Season">
+                    </div>
+
+                    <div  class="form-action-buttons">
+                        <input type="submit" value="Submit">
+                    </div>
+                </form>
+            </td>
+            <td>
+                <table class="list" id="tournamentList">
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Time</th>
+                            <th>Team1</th>
+                            <th>Team2</th>
+                            <th>Team1_Score</th>
+                            <th>Team2_Score</th>
+                            <th>Winner</th>
+                            <th>Group_Stage</th>
+                            <th>Game_Season</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <script src="script.js"></script>
+</body>
+
+</html>
